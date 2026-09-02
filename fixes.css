@@ -1,0 +1,9 @@
+/* Resolution-safe refinements */
+h1 em,h2 em{letter-spacing:-.075em}
+h1 .qmark{display:inline-block;margin-left:.14em;margin-right:.08em;letter-spacing:0}
+.intro h1 em{padding-right:.08em}
+.box{overflow:hidden}
+.box img{content:url("assets/signal-cup.png");width:88%;height:88%;max-width:88%;position:absolute;left:6%;top:6%;object-fit:contain;mix-blend-mode:normal}
+.box small{display:none}
+.live-link{display:inline-block;margin-top:20px;font:500 10px 'DM Mono';letter-spacing:.04em;border-bottom:1px solid var(--ink);padding-bottom:3px}
+@media(max-width:720px){.live-link{margin-top:14px}}
